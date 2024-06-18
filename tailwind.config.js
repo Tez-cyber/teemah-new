@@ -13,7 +13,7 @@ export default {
         contain: '1200px'
       },
       fontFamily: {
-        
+        josefin: ['Josefin Sans']
       }
     },
   },
