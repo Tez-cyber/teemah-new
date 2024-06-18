@@ -11,6 +11,9 @@ export default {
       },
       width: {
         contain: '1200px'
+      },
+      fontFamily: {
+        
       }
     },
   },
