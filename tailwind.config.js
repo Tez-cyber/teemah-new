@@ -16,7 +16,7 @@ export default {
         josefin: ['Josefin Sans']
       },
       backgroundImage: {
-        jumboImg: "url('/assets/img-1.jpg')"
+        'jumboImg': "url('/assets/img-1.jpg')"
       }
     },
   },
