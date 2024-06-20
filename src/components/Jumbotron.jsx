@@ -15,8 +15,8 @@ const Jumbotron = () => {
                 <img src={jumboImg} alt="" />
             </div> */}
             <div className='text-white py-[40vh] w-1/2 mx-auto text-center'>
-                <h1>Teemah's confectionery</h1>
-                <p>
+                <h1 className='text-6xl'>Teemah's confectionery</h1>
+                <p className='text-xl'>
                     Home to various confectionery.
                     Crafting cuisines to customer's
                     demands
