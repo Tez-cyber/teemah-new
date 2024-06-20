@@ -5,7 +5,7 @@ const Jumbotron = () => {
     return (
         <div className='relative'>
             {/* Background image is imported in index.css */}
-            <div 
+            <div
                 className="absolute left-0 right-0 h-screen w-full bg-fixed bg-cover bg-center
                            z-[-2] home-bg before:content-[''] before:absolute before:left-0 before:right-0 
                            before:h-full before:w-full before:bg-black/70 before:backdrop-blur-sm"
@@ -21,9 +21,12 @@ const Jumbotron = () => {
                     Crafting cuisines to customer's
                     demands
                 </p>
-                <a href="" className="">
-                    Our menu
-                </a>
+                <div className="my-6 relative flex items-center justify-center">
+                    <span className='absolute w-[105px] h-[40px] bg-mainColor'></span>
+                    <a href="" className="border-[2px] font-bold text-lg text-black border-mainColor px-4 py-3 rounded-sm z-10">
+                        Our menu
+                    </a>
+                </div>
             </div>
         </div>
     )
