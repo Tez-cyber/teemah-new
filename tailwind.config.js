@@ -7,7 +7,8 @@ export default {
   theme: {
     extend: {
       colors: {
-        darkHueBg: "#0b1215"
+        darkHueBg: "#0b1215",
+        mainColor: '#eaa023'
       },
       width: {
         contain: '1200px'
