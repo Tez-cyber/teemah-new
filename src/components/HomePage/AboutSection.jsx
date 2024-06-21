@@ -31,10 +31,10 @@ const AboutSection = () => {
         </div>
         {/*------------- Img - section ------------- */}
         <div className="lg:w-1/2">
-          <div className="relative before:content-[''] before:absolute before:h-[100px] before:w-[100px] before:border-[3px] before:border-solid before:border-mainColor before:top-[45%] before:left-[40%] before:z-[10]">
+          <div className="relative before:content-[''] before:absolute before:h-[100px] before:w-[100px] before:animate-spins before:border-[3px] before:border-solid before:border-mainColor before:top-[45%] before:left-[40%] before:z-[10]">
             <h3 className='absolute top-1/2 w-full text-center text-2xl text-white z-[10]'>10+ years Experience</h3>
-            <div className="relative before:content-[''] before:absolute before:w-full before:h-full before:bg-black/70">
-              <img className='z-10' src={abtImg} alt="about img" />
+            <div className="relative before:content-[''] before:absolute before:w-full before:h-full before:bg-black/70 before:rounded-xl">
+              <img className='z-10 rounded-xl' src={abtImg} alt="about img" />
             </div>
           </div>
         </div>

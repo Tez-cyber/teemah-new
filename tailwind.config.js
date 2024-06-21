@@ -42,7 +42,7 @@ export default {
       },
       animation: {
         zoomInOut: 'zoomInOut 22s ease infinite',
-        spins: 'spin01 10s linear infinite'
+        spins: 'spins 10s linear infinite'
       }
     },
   },
