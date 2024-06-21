@@ -18,6 +18,19 @@ export default {
       },
       backgroundImage: {
         'jumboImg': "url('/assets/img-1.jpg')"
+      },
+      keyframes: {
+        zoomInOut: {
+          "0%, 100%": {
+              transform: "scale(1)"
+          },
+          "50% ": {
+              transform: "scale(1.5)"
+          }
+        }
+      },
+      animation: {
+        zoomInOut: 'zoomInOut 22s ease infinite'
       }
     },
   },
