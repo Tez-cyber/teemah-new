@@ -30,10 +30,19 @@ export default {
           "50% ": {
               transform: "scale(1.5)"
           }
+        },
+        spins: {
+          "0%": {
+              transform: "rotate(0deg)"
+          },
+          "100%": {
+              transform: "rotate(360deg)"
+          }
         }
       },
       animation: {
-        zoomInOut: 'zoomInOut 22s ease infinite'
+        zoomInOut: 'zoomInOut 22s ease infinite',
+        spins: 'spin01 10s linear infinite'
       }
     },
   },
