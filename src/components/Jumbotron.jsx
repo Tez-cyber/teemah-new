@@ -7,7 +7,7 @@ const Jumbotron = () => {
             {/* Background image is imported in index.css */}
             <div
                 className="absolute left-0 right-0 h-screen w-full bg-fixed bg-cover bg-center
-                           z-[-2] home-bg before:content-[''] before:absolute before:left-0 before:right-0 
+                           z-[-2] home-bg animate-zoomInOut before:content-[''] before:absolute before:left-0 before:right-0 
                            before:h-full before:w-full before:bg-black/70 before:backdrop-blur-sm"
             ></div>
             {/* <div className="bg-green-200 h-full w-full bg-fixed bg-cover block"></div> */}
