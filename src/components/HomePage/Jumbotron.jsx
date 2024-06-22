@@ -1,19 +1,15 @@
 import React from 'react'
-import jumboImg from '../assets/n-2.jpg'
+import jumboImg from '../../assets/n-2.jpg'
 
 const Jumbotron = () => {
     return (
         <div className='relative'>
             {/* Background image is imported in index.css */}
             <div
-                className="absolute left-0 right-0 h-screen w-full bg-fixed bg-cover bg-center
+                className="absolute left-0 right-0 h-full w-full bg-fixed bg-cover bg-center
                            z-[-2] home-bg animate-zoomInOut before:content-[''] before:absolute before:left-0 before:right-0 
                            before:h-full before:w-full before:bg-black/70 before:backdrop-blur-sm"
             ></div>
-            {/* <div className="bg-green-200 h-full w-full bg-fixed bg-cover block"></div> */}
-            {/* <div className="w-screen h-[90vh] object-contain">
-                <img src={jumboImg} alt="" />
-            </div> */}
             <div className='text-white py-[40vh] w-1/2 mx-auto text-center'>
                 <h1 className='text-6xl'>Teemah's confectionery</h1>
                 <p className='text-xl'>
