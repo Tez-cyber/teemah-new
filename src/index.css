@@ -4,13 +4,17 @@
 @tailwind utilities;
 
 /* General class */
-.section-title {
-  width: 100%;
-  padding: 0 15px;
-  text-align: center;
-  margin-bottom: 60px;
+
+.row {
+  display: flex;
 }
 /* Jumbotron */
 .home-bg {
     background-image: url('./assets/n-2.jpg');
+}
+
+@layer utilities {
+  .section-title {
+    @apply w-full py-0 px-4 text-center mb-[60px]
+  }
 }
