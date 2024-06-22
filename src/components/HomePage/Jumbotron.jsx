@@ -11,9 +11,9 @@ const Jumbotron = () => {
                            before:h-full before:w-full before:bg-black/70 before:backdrop-blur-sm"
             ></div>
             <div className='text-white py-[40vh] w-1/2 mx-auto text-center'>
-                <h1 className='text-6xl'>Teemah's confectionery</h1>
+                <h1 className='text-6xl font-romantic pb-6'>Teemah's confectionery</h1>
                 <p className='text-xl'>
-                    Home to various confectionery.
+                    Home of delicious confectionery.
                     Crafting cuisines to customer's
                     demands
                 </p>

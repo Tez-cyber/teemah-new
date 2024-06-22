@@ -16,7 +16,8 @@ export default {
       fontFamily: {
         josefin: ['Josefin Sans'],
         sail: ['Sail'],
-        saily: ['Saily']
+        saily: ['Saily'],
+        romantic: ['Romantic']
       },
       backgroundImage: {
         'jumboImg': "url('/assets/img-1.jpg')"
