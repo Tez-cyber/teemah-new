@@ -20,7 +20,7 @@
     @apply text-4xl capitalize
   }
   .section-title h2::before {
-    @apply text-xl block text-mainColor font-normal pb-2 content-[attr(data-title)]
+    @apply text-xl block text-mainColor font-normal pb-2 content-[attr(data-title)] font-sail
   }
   .row {
     @apply flex
