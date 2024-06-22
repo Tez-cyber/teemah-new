@@ -5,9 +5,7 @@
 
 /* General class */
 
-.row {
-  display: flex;
-}
+
 /* Jumbotron */
 .home-bg {
     background-image: url('./assets/n-2.jpg');
@@ -16,5 +14,14 @@
 @layer utilities {
   .section-title {
     @apply w-full py-0 px-4 text-center mb-[60px]
+  }
+  .section-title h2 {
+    @apply text-4xl capitalize
+  }
+  .section-title h2::before {
+    @apply text-xl block text-mainColor font-normal pb-2 content-[attr(data-title)]
+  }
+  .row {
+    @apply flex
   }
 }
