@@ -3,7 +3,14 @@
 @tailwind components;
 @tailwind utilities;
 
-
+/* General class */
+.section-title {
+  width: 100%;
+  padding: 0 15px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+/* Jumbotron */
 .home-bg {
     background-image: url('./assets/n-2.jpg');
 }
