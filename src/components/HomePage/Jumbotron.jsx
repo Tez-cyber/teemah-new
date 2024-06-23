@@ -11,11 +11,11 @@ const Jumbotron = () => {
                            before:h-full before:w-full before:bg-black/70 before:backdrop-blur-sm"
             ></div>
             <div className='text-white py-[40vh] w-1/2 mx-auto text-center'>
-                <h1 className='text-6xl font-romantic pb-6'>Teemah's confectionery</h1>
-                <p className='text-xl'>
+                <h1 className='text-6xl font-romantic pb-6 capitalize'>Teemah's confectionery</h1>
+                <p className='text-xl capitalize'>
                     Home of delicious confectionery.
                     Crafting cuisines to customer's
-                    demands
+                    delight
                 </p>
                 <div className="my-6 relative flex items-center justify-center">
                     <span className='absolute w-[105px] h-[40px] bg-mainColor'></span>

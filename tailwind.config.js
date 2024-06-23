@@ -11,7 +11,7 @@ export default {
         mainColor: '#eaa023'
       },
       width: {
-        contain: '1200px'
+        contain: '1400px'
       },
       fontFamily: {
         josefin: ['Josefin Sans'],
