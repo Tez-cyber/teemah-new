@@ -32,6 +32,6 @@
     @apply text-xl block text-mainColor font-normal pb-3 content-[attr(data-title)] font-saily
   }
   .row {
-    @apply flex
+    @apply flex flex-col lg:flex-row
   }
 }
