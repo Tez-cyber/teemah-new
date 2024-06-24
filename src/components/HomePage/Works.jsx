@@ -12,8 +12,8 @@ const Works = () => {
         </div>
       </div>
       {/*----------------------- Content ------------------------- */}
-      <div className="row gap-10 px-10 lg:w-contain lg:mx-auto lg:gap-4">
-        <div className="">
+      <div className="row gap-10 px-10 lg:w-contain lg:mx-auto lg:gap-4 lg:px-0">
+        <div className="px-5">
           {/*------ Works-head------ */}
           <div className="flex gap-3 items-center pb-3 text-mainColor text-2xl">
             <i className="text-3xl"><BiFoodMenu /></i>
@@ -28,7 +28,7 @@ const Works = () => {
 
           </p>
         </div>
-        <div className="">
+        <div className="px-5">
           {/*------ Works-head------ */}
           <div className="flex gap-3 items-center pb-3 text-mainColor text-2xl">
             <i className="text-3xl"><FaCookieBite /></i>
@@ -40,7 +40,7 @@ const Works = () => {
             all your meals and have them fresh and ready to go !
           </p>
         </div>
-        <div className="">
+        <div className="px-5">
           {/*------ Works-head------ */}
           <div className="flex gap-3 items-center pb-3 text-mainColor text-2xl">
             <i className="text-3xl"><FaTruck /></i>
