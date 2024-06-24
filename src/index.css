@@ -34,4 +34,7 @@
   .row {
     @apply flex flex-col lg:flex-row
   }
+  .worksContent {
+    @apply text-xl
+  }
 }
