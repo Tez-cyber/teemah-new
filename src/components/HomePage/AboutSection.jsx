@@ -10,7 +10,7 @@ const AboutSection = () => {
         </div>
       </div>
       {/*------------- Text - section ------------- */}
-      <div className="row gap-5 items-center md:w-[90%] md:mx-auto ">
+      <div className="row gap-5 items-center px-10 md:w-[90%] md:mx-auto ">
         <div className="lg:w-1/2">
           <h3 className='text-4xl font-romantic pb-4'>Welcome To Teemah's Confectionery</h3>
           <p className='text-lg my-2'>
