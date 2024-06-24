@@ -10,8 +10,8 @@ const Jumbotron = () => {
                            z-[-2] home-bg animate-zoomInOut before:content-[''] before:absolute before:left-0 before:right-0 
                            before:h-full before:w-full before:bg-black/70 before:backdrop-blur-sm"
             ></div>
-            <div className='text-white py-[40vh] w-1/2 mx-auto text-center'>
-                <h1 className='text-6xl font-romantic pb-6 capitalize'>Teemah's confectionery</h1>
+            <div className='text-white py-[40vh] mx-auto px-3 text-center lg:w-1/2 '>
+                <h1 className='text-6xl font-romantic pb-6 capitalize text-center'>Teemah's confectionery</h1>
                 <p className='text-xl capitalize'>
                     Home of delicious confectionery.
                     Crafting cuisines to customer's
