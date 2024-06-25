@@ -38,7 +38,7 @@ const Footer = () => {
                 </div>
                 <div className="w-full">
                     <div className="text-center border-t border-t-gray-400 p-10 copyright">
-                        &copy; 2021 - Designed by Tez-Cyber
+                        &copy; {new Date().getFullYear()} - Designed by Tez-Cyber
                     </div>
                 </div>
             </div>
