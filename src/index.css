@@ -21,6 +21,10 @@
     background-image: url('./assets/n-2.jpg');
 }
 
+/* Footer */
+.footer {
+  background-image: url('./assets/n-5.jpg');
+}
 @layer utilities {
   .section-title {
     @apply w-full py-0 px-4 text-center mb-[60px]

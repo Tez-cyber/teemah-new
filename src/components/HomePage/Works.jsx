@@ -8,7 +8,7 @@ const Works = () => {
       {/*------------- Heading ------------- */}
       <div className="row">
         <div className="section-title">
-          <h2 data-title="" className='text-white'>How it works</h2>
+          <h2 data-title="" className='text-white '>How it works</h2>
         </div>
       </div>
       {/*----------------------- Content ------------------------- */}
