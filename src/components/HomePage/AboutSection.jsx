@@ -12,14 +12,14 @@ const AboutSection = () => {
       {/*------------- Text - section ------------- */}
       <div className="row gap-5 items-center px-10 md:w-[90%] md:mx-auto ">
         <div className="lg:w-1/2">
-          <h3 className='text-4xl font-romantic pb-4'>Welcome To Teemah's Confectionery</h3>
-          <p className='text-lg my-2'>
+          <h3 className='text-[26px] font-semibold font-romantic pb-4 md:text-4xl'>Welcome To Teemah's Confectionery</h3>
+          <p className='text-base my-2 md:text-lg'>
             Every meal prepared is made with passion and
             care by our dexterous chef and culinary team.
             Being more passionate than ever that we can truly change
             people's lives with delicious and clean eating!
           </p>
-          <p className='text-lg my-2'>
+          <p className='text-base my-4 md:text-lg'>
             Our mission is to prepare eating simple and convenient,
             making sure a customer never have to sacrifice, flavor,
             nutrition and most of all, QUALITY. Which is why we offer
