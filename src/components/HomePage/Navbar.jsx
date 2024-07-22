@@ -9,7 +9,7 @@ const Navbar = () => {
     ]
     return (
         <div className='bg-darkHueBg text-white w-screen'>
-            <div className="  mx-auto flex justify-between items-center p-6 md:w-contain">
+            <div className="  mx-auto flex justify-between items-center py-6 md:w-contain">
                 <div className="text-3xl font-bold">
                     Teemah
                 </div>
