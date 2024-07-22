@@ -46,4 +46,7 @@
   .worksContent {
     @apply text-lg
   }
+  .footerItem {
+    @apply py-0 px-4 text-center md:w-1/3 
+  }
 }
