@@ -38,7 +38,12 @@
   .row {
     @apply flex flex-col lg:flex-row
   }
+
+  /* ========Works Section======= */
+  .worksHead {
+    @apply flex gap-3 items-center pb-3 text-mainColor text-2xl
+  }
   .worksContent {
-    @apply text-xl
+    @apply text-lg
   }
 }
